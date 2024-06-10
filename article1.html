@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript - Online Course Website</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">CourseSite</a>
+            <nav>
+                <ul>
+                    <li><a href="Free Courses.html">Free Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login/Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Article Content -->
+    <main class="container article-content">
+        <article>
+            <h1>Introduction to JavaScript</h1>
+            <p class="author-date">By John Doe on Jan 1, 2023</p>
+            <img src="dur1.jpg" alt="JavaScript Code Example">
+            
+            <p>JavaScript is the most popular programming language for web development. It allows developers to create interactive websites and is an essential skill for front-end development.</p>
+            
+            <h2>What is JavaScript?</h2>
+            <p>JavaScript is a versatile programming language that can be used for both client-side and server-side development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.</p>
+            
+            <h2>Getting Started with JavaScript</h2>
+            <p>To get started with JavaScript, you need a text editor and a web browser. You can write JavaScript code directly in an HTML file within script tags or in a separate .js file that is linked to the HTML file.</p>
+            
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;JavaScript Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, JavaScript!&lt;/h1&gt;
+    &lt;script&gt;
+        alert('Hello, World!');
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            
+            <h2>Basic Concepts</h2>
+            <p>JavaScript has various basic concepts such as variables, data types, functions, and control structures. Understanding these concepts is crucial for writing effective JavaScript code.</p>
+            
+            <h3>Variables</h3>
+            <p>Variables are used to store data. You can declare a variable using <code>var</code>, <code>let</code>, or <code>const</code>.</p>
+            <pre><code>let message = 'Hello, World!';
+const pi = 3.14;
+var count = 10;</code></pre>
+            
+            <h3>Functions</h3>
+            <p>Functions are reusable blocks of code that perform a specific task. You can define a function using the <code>function</code> keyword.</p>
+            <pre><code>function greet(name) {
+    return 'Hello, ' + name + '!';
+}
+console.log(greet('Alice'));</code></pre>
+            
+            <p>For more in-depth tutorials and examples, check out our <a href="courses.html">JavaScript courses</a>.</p>
+        </article>
+        
+        <!-- Related Articles -->
+        <aside class="related-articles">
+            <h2>Related Articles</h2>
+            <ul>
+                <li><a href="article2.html">Understanding Machine Learning</a></li>
+                <li><a href="article5.html">Advanced CSS Techniques</a></li>
+                <li><a href="article4.html">Building Responsive Websites</a></li>
+            </ul>
+        </aside>
+        
+        <!-- Comments Section -->
+        <section class="comments">
+            <h2>Comments</h2>
+            <form action="#" method="post">
+                <textarea name="comment" placeholder="Add a comment..." required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="comment">
+                <p><strong>Jane Smith:</strong> Great introduction to JavaScript! Very helpful for beginners.</p>
+            </div>
+            <!-- More comments... -->
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="newsletter">
+                <h3>Subscribe to our Newsletter</h3>
+                <input type="email" placeholder="Your email">
+                <button>Subscribe</button>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
